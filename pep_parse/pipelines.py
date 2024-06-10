@@ -1,7 +1,6 @@
 import datetime as dt
 from pathlib import Path
 
-from itemadapter import ItemAdapter
 
 BASE_DIR = Path('../results/')
 
