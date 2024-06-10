@@ -4,6 +4,12 @@ SPIDER_MODULES = ['pep_parse.spiders']
 
 NEWSPIDER_MODULE = 'pep_parse.spiders'
 
+PEP_SPIDER_NAME = 'pep'
+
+PEP_SPIDER_ALLOWED_HOST = 'peps.python.org'
+
+PEP_SPIDER_START_URL = 'https://peps.python.org/'
+
 ROBOTSTXT_OBEY = True
 
 FEEDS = {
