@@ -7,9 +7,8 @@ BASE_DIR = Path('results/')
 
 
 class PepParsePipeline:
-    pep_status_count = defaultdict(lambda: 0)
-
     def open_spider(self, spider):
+        self.pep_status_count = defaultdict(lambda: 0)
         results_dir = Path(BASE_DIR)
         results_dir.mkdir(exist_ok=True)
 
